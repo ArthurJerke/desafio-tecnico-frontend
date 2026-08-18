@@ -9,6 +9,9 @@ function Sidebar() {
                 <Link to="/">Início</Link>
                 <Link to="/cep">Buscar CEP</Link>
                 <Link to="/noticias">Notícias</Link>
+                <Link to="/noticias/nova">Nova notícia</Link>
+                <Link to="/noticias/editar/:id">Editar notícia</Link>
+                <Link to="/noticias/visualizar/:id">Visualizar notícia</Link>
             </nav>
         </aside>
     );
