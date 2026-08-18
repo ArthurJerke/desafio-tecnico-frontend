@@ -1,0 +1,82 @@
+.formulario-noticia {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.formulario-noticia h1 {
+    margin-bottom: 24px;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+.formulario-noticia .campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.formulario-noticia label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+}
+
+.formulario-noticia input,
+.formulario-noticia textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.2s ease;
+}
+
+.formulario-noticia input:focus,
+.formulario-noticia textarea:focus {
+    outline: none;
+    border-color: #1a56db;
+}
+
+.formulario-noticia textarea {
+    min-height: 250px;
+    resize: vertical;
+}
+
+.formulario-noticia .acoes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.formulario-noticia .acoes button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.formulario-noticia .acoes button[type="button"] {
+    background-color: #1a56db;
+    color: #fff;
+}
+
+.formulario-noticia .acoes button[type="button"]:hover {
+    background-color: #1e40af;
+}
+
+.formulario-noticia .acoes button[type="submit"] {
+    background-color: #0e9f6e;
+    color: #fff;
+}
+
+.formulario-noticia .acoes button[type="submit"]:hover {
+    background-color: #057a55;
+}
